@@ -21,3 +21,5 @@ In this app, I implemented the following:
 -And so on...
 
 This application tested my capabilities to use React state and side-effects effectively. 
+
+Use "npm run dev" on your local machine to run app
