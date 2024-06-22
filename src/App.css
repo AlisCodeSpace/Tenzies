@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla";
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0B2434;
+}
+
+.main {
+  background-color: #F5F5F5;
+  width: 720px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.header--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--container h1 {
+  color: #2B283A;
+  margin: 0;
+  font-size: 52px;
+  padding-bottom: 5px;
+}
+
+.header--container p {
+  margin: 0;
+  color: #4A4E74;
+  font-size: 26px;
+  text-align: center;
+  width: 460px;
+}
+
+/* Dice */
+
+.dice--container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.dice--dots div {
+  border-radius: 50%;
+  background-color: black;
+  width: 6px;
+  height: 6px;
+  justify-self: center;
+  align-self: center;
+}
+
+.dice--dots {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  padding: 8px;
+}
+
+.rolldice {
+  width: 180px;
+  height: 90px;
+  background-color: #4b39c1;
+  color: #ffffff;
+  font-size: 26px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rolldice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.rolls--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.rolls--container p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.rolls, .time {
+  color: #4b39c1;
+}
+
+.scores {
+  display: flex;
+  gap: 20px;
+}
+
+
+
